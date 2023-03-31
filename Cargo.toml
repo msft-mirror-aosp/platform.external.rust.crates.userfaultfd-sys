@@ -12,12 +12,12 @@
 [package]
 edition = "2018"
 name = "userfaultfd-sys"
-version = "0.4.2"
-authors = ["Adam C. Foltzer <acfoltzer@fastly.com>"]
+version = "0.4.3"
+authors = ["The Wasmtime Project Developers"]
 build = "build.rs"
 description = "Low-level bindings for userfaultfd functionality on Linux."
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/fastly/userfaultfd-rs"
+repository = "https://github.com/bytecodealliance/userfaultfd-rs"
 
 [dependencies.cfg-if]
 version = "^1.0.0"
