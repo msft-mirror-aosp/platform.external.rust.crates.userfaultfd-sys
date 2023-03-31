@@ -29,6 +29,7 @@ pub const UFFD_FEATURE_THREAD_ID: u64 = 256;
 pub const UFFD_FEATURE_MINOR_HUGETLBFS: u64 = 512;
 pub const UFFD_FEATURE_MINOR_SHMEM: u64 = 1024;
 pub const UFFD_FEATURE_EXACT_ADDRESS: u64 = 2048;
+pub const UFFD_FEATURE_WP_HUGETLBFS_SHMEM: u64 = 4096;
 pub const UFFD_USER_MODE_ONLY: u32 = 1;
 pub type __s8 = ::std::os::raw::c_schar;
 pub type __u8 = ::std::os::raw::c_uchar;
